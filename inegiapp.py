@@ -3,11 +3,22 @@ import streamlit as st
 import requests
 import pandas as pd
 #import matplotlib.pyplot as plt
-import matplotlib
-matplotlib.use('Agg')  # Esto DEBE ir ANTES de importar pyplot
-import matplotlib.pyplot as plt
 import numpy as np
 from datetime import datetime
+
+# IMPORTANTE: Configurar matplotlib ANTES de usarlo
+import matplotlib
+matplotlib.use('Agg')  # Backend no interactivo para servidores
+import matplotlib.pyplot as plt
+
+# Configuración de la página
+st.set_page_config(
+    page_title="Indicadores INEGI",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 
 # Configuración de la página
 st.set_page_config(
