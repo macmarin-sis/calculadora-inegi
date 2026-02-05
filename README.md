@@ -1,6 +1,4 @@
-# requirements.txt más específico
-streamlit==1.28.0
-pandas==2.1.3
-matplotlib==3.7.3
-numpy==1.24.3
-requests==2.31.0
+streamlit
+matplotlib
+pandas
+numpy
