@@ -4,13 +4,8 @@ import requests
 import pandas as pd
 #import matplotlib.pyplot as plt
 import matplotlib
-# Configurar el backend para entornos sin display
-matplotlib.use('Agg')
+matplotlib.use('Agg')  # Esto DEBE ir ANTES de importar pyplot
 import matplotlib.pyplot as plt
-import matplotlib.style as style
-
-# Usar un estilo que funcione bien en Streamlit
-style.use('seaborn-v0_8-darkgrid')  # o 'seaborn', 'ggplot', 'fivethirtyeight'
 import numpy as np
 from datetime import datetime
 
