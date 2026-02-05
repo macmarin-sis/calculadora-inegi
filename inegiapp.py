@@ -1,20 +1,8 @@
-import streamlit as st
-import pandas as pd
-
-# Título
-#st.title("Filtro de datos INEGI")
-
-# Entradas del usuario
-#estado = st.number_input("Número de estado", min_value=1, max_value=32, step=1)
-#municipio = st.number_input("Número de municipio", min_value=1, step=1)
-
-
-
 #===============================================================================
 import streamlit as st
 import requests
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import numpy as np
 from datetime import datetime
 
